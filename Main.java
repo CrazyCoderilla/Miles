@@ -4,7 +4,9 @@ public class Main
         int biletCost = Integer.parseInt(args[0]);
         int mileCost = 20;
         
-        System.out.println("You have " + biletCost/mileCost + " miles");
+        int miles = biletCost / mileCost;
+        
+        System.out.println("You have " + miles + " miles");
   
     // Объявляете переменные для входных данных и
     // параметров программы: одну для хранения 
